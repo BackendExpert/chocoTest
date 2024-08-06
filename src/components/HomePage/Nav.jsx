@@ -7,7 +7,7 @@ const Nav = () => {
     const [navOpen, SetNavOpen] = useState(false)
 
     const NavList = [
-        {id: 1, name: "Home", link: "/"},
+        {id: 1, name: "Home", link: ""},
         {id: 2, name: "Discounts", link: ""},
         {id: 3, name: "Products", link: "productstore"},
         {id: 3, name: "Gifts", link: ""},
