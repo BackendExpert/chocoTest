@@ -15,7 +15,7 @@ export default function App() {
         <Nav />
         <Routes>
           <Route path="/" element={<HomePage /> } />
-          <Route path="/ProductStore" element={<ProductStore /> } />
+          <Route path="/productstore" element={<ProductStore /> } />
           <Route path="/SignIn" element={<SignIn />} />
           <Route path="/SignUp" element={<SignUp /> } />
           <Route path="/Dashboard" element={<PrivateRoute ProtectRoute={<Dashboard /> }/> } />
