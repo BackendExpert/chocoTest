@@ -1,5 +1,4 @@
 import React from 'react'
-import BgImg from '../../assets/BgImg.jpg'
 import { BsCartFill, BsFacebook, BsHouseFill } from 'react-icons/bs'
 
 
